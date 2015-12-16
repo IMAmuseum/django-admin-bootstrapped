@@ -22,19 +22,19 @@ setup(
     maintainer="Riccardo Magliocchetti",
     maintainer_email="riccardo.magliocchetti@gmail.com",
     name='django-admin-bootstrapped',
-    version='2.5.7',
+    version='3.0.0',
     description='A Bootstrap theme for Django Admin',
-    long_description=open(os.path.join(os.path.dirname(__file__), 'README.rst')).read(),
-    url='https://github.com/hellpanderrr/django-admin-bootstrapped-1.9-compatible',
+    long_description=open(os.path.join(os.path.dirname(__file__), 'README.md')).read(),
+    url='https://github.com/roundware/django-admin-bootstrapped',
     license='BSD License',
     platforms=['OS Independent'],
     classifiers=CLASSIFIERS,
     install_requires=[
         'setuptools',
-        'Django>=1.8,<1.9',
+        'Django>=1.8',
     ],
     dependencies = [
-    'https://github.com/hellpanderrr/django-admin-bootstrapped-1.9-compatible.git@master#egg=django_admin_bootstrapped'
+    'https://github.com/roundware/django-admin-bootstrapped.git@master#egg=django_admin_bootstrapped'
     ],
     test_suite='django_admin_bootstrapped.runtests.runtests',
     packages=find_packages(),

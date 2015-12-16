@@ -1,10 +1,6 @@
 django-admin-bootstrapped
 =========================
 
-.. image:: https://travis-ci.org/django-admin-bootstrapped/django-admin-bootstrapped.svg
-    :target: https://travis-ci.org/django-admin-bootstrapped/django-admin-bootstrapped
-
-|PyPI version|
 
 This is a Django-1.9 compatible version of https://github.com/django-admin-bootstrapped/django-admin-bootstrapped
 
@@ -12,13 +8,13 @@ Installation
 ------------
 
 ```bash
-pip install -e git+git://github.com/hellpanderrr/django-admin-bootstrapped-1.9-compatible.git@master#egg=django_admin_bootstrapped
+pip install -e git+git://github.com/roundware/django-admin-bootstrapped.git@master#egg=django_admin_bootstrapped
 ```
- 
+
  OR
- 
+
 ```bash
-git clone https://github.com/hellpanderrr/django-admin-bootstrapped-1.9-compatible
-cd  django-admin-bootstrapped-1.9-compatible
+git clone https://github.com/roundware/django-admin-bootstrapped
+cd  django-admin-bootstrapped
 pip install -e .
 ```
